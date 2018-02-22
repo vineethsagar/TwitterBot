@@ -1,0 +1,905 @@
+IncomingMessage{
+    _readableState:
+     ReadableState{
+       objectMode: false,
+       highWaterMark: 16384,
+       buffer: BufferList{ head: null, tail: null, length: 0
+        },
+       length: 0,
+       pipes: null,
+       pipesCount: 0,
+       flowing: true,
+       ended: true,
+       endEmitted: true,
+       reading: false,
+       sync: true,
+       needReadable: false,
+       emittedReadable: false,
+       readableListening: false,
+       resumeScheduled: false,
+       defaultEncoding: 'utf8',
+       ranOut: false,
+       awaitDrain: 0,
+       readingMore: false,
+       decoder: null,
+       encoding: null
+    },
+    readable: false,
+    domain: null,
+    _events: { end: [
+            [Function: responseOnEnd
+            ],
+            [Function
+            ]
+        ],
+       close: [
+            [Function
+            ],
+            [Function
+            ]
+        ],
+       data: [Function
+        ],
+       error: [Function
+        ]
+    },
+    _eventsCount: 4,
+    _maxListeners: undefined,
+    socket:
+     Socket{
+       connecting: false,
+       _hadError: false,
+       _handle: null,
+       _parent: null,
+       _host: 'www.convert-unix-time.com',
+       _readableState:
+        ReadableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          buffer: [Object
+            ],
+          length: 0,
+          pipes: null,
+          pipesCount: 0,
+          flowing: true,
+          ended: false,
+          endEmitted: false,
+          reading: true,
+          sync: false,
+          needReadable: true,
+          emittedReadable: false,
+          readableListening: false,
+          resumeScheduled: false,
+          defaultEncoding: 'utf8',
+          ranOut: false,
+          awaitDrain: 0,
+          readingMore: false,
+          decoder: null,
+          encoding: null
+        },
+       readable: false,
+       domain: null,
+       _events: { end: [Object
+            ],
+          finish: [Function: onSocketFinish
+            ],
+          _socketEnd: [Function: onSocketEnd
+            ],
+          free: [Function: onFree
+            ],
+          close: [Object
+            ],
+          agentRemove: [Function: onRemove
+            ],
+          drain: [Function: ondrain
+            ],
+          error: [Function: socketErrorListener
+            ]
+        },
+       _eventsCount: 8,
+       _maxListeners: undefined,
+       _writableState:
+        WritableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          needDrain: false,
+          ending: true,
+          ended: true,
+          finished: true,
+          decodeStrings: false,
+          defaultEncoding: 'utf8',
+          length: 0,
+          writing: false,
+          corked: 0,
+          sync: false,
+          bufferProcessing: false,
+          onwrite: [Function
+            ],
+          writecb: null,
+          writelen: 0,
+          bufferedRequest: null,
+          lastBufferedRequest: null,
+          pendingcb: 0,
+          prefinished: true,
+          errorEmitted: false,
+          bufferedRequestCount: 0,
+          corkedRequestsFree: [Object
+            ]
+        },
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: true,
+       _bytesDispatched: 94,
+       _sockname: null,
+       _pendingData: null,
+       _pendingEncoding: '',
+       server: null,
+       _server: null,
+       parser: null,
+       _httpMessage:
+        ClientRequest{
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 5,
+          _maxListeners: undefined,
+          output: [],
+          outputEncodings: [],
+          outputCallbacks: [],
+          outputSize: 0,
+          writable: true,
+          _last: true,
+          upgrading: false,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          useChunkedEncodingByDefault: false,
+          sendDate: false,
+          _removedHeader: {},
+          _contentLength: 0,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          socket: [Circular
+            ],
+          connection: [Circular
+            ],
+          _header: 'GET /api?timestamp=1506075674 HTTP/1.1\r\nhost: www.convert-unix-time.com\r\nConnection: close\r\n\r\n',
+          _headers: [Object
+            ],
+          _headerNames: [Object
+            ],
+          _onPendingData: null,
+          agent: [Object
+            ],
+          socketPath: undefined,
+          timeout: undefined,
+          method: 'GET',
+          path: '/api?timestamp=1506075674',
+          _ended: true,
+          parser: null,
+          res: [Circular
+            ]
+        },
+       read: [Function
+        ],
+       _consuming: true,
+       _idleNext: null,
+       _idlePrev: null,
+       _idleTimeout: -1
+    },
+    connection:
+     Socket{
+       connecting: false,
+       _hadError: false,
+       _handle: null,
+       _parent: null,
+       _host: 'www.convert-unix-time.com',
+       _readableState:
+        ReadableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          buffer: [Object
+            ],
+          length: 0,
+          pipes: null,
+          pipesCount: 0,
+          flowing: true,
+          ended: false,
+          endEmitted: false,
+          reading: true,
+          sync: false,
+          needReadable: true,
+          emittedReadable: false,
+          readableListening: false,
+          resumeScheduled: false,
+          defaultEncoding: 'utf8',
+          ranOut: false,
+          awaitDrain: 0,
+          readingMore: false,
+          decoder: null,
+          encoding: null
+        },
+       readable: false,
+       domain: null,
+       _events: { end: [Object
+            ],
+          finish: [Function: onSocketFinish
+            ],
+          _socketEnd: [Function: onSocketEnd
+            ],
+          free: [Function: onFree
+            ],
+          close: [Object
+            ],
+          agentRemove: [Function: onRemove
+            ],
+          drain: [Function: ondrain
+            ],
+          error: [Function: socketErrorListener
+            ]
+        },
+       _eventsCount: 8,
+       _maxListeners: undefined,
+       _writableState:
+        WritableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          needDrain: false,
+          ending: true,
+          ended: true,
+          finished: true,
+          decodeStrings: false,
+          defaultEncoding: 'utf8',
+          length: 0,
+          writing: false,
+          corked: 0,
+          sync: false,
+          bufferProcessing: false,
+          onwrite: [Function
+            ],
+          writecb: null,
+          writelen: 0,
+          bufferedRequest: null,
+          lastBufferedRequest: null,
+          pendingcb: 0,
+          prefinished: true,
+          errorEmitted: false,
+          bufferedRequestCount: 0,
+          corkedRequestsFree: [Object
+            ]
+        },
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: true,
+       _bytesDispatched: 94,
+       _sockname: null,
+       _pendingData: null,
+       _pendingEncoding: '',
+       server: null,
+       _server: null,
+       parser: null,
+       _httpMessage:
+        ClientRequest{
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 5,
+          _maxListeners: undefined,
+          output: [],
+          outputEncodings: [],
+          outputCallbacks: [],
+          outputSize: 0,
+          writable: true,
+          _last: true,
+          upgrading: false,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          useChunkedEncodingByDefault: false,
+          sendDate: false,
+          _removedHeader: {},
+          _contentLength: 0,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          socket: [Circular
+            ],
+          connection: [Circular
+            ],
+          _header: 'GET /api?timestamp=1506075674 HTTP/1.1\r\nhost: www.convert-unix-time.com\r\nConnection: close\r\n\r\n',
+          _headers: [Object
+            ],
+          _headerNames: [Object
+            ],
+          _onPendingData: null,
+          agent: [Object
+            ],
+          socketPath: undefined,
+          timeout: undefined,
+          method: 'GET',
+          path: '/api?timestamp=1506075674',
+          _ended: true,
+          parser: null,
+          res: [Circular
+            ]
+        },
+       read: [Function
+        ],
+       _consuming: true,
+       _idleNext: null,
+       _idlePrev: null,
+       _idleTimeout: -1
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: { date: 'Fri,
+        22 Sep2017 10: 31: 19 GMT',
+       server: 'Apache/2.4.7 (Ubuntu)',
+       vary: 'Accept-Encoding',
+       'content-length': '278',
+       connection: 'close',
+       'content-type': 'text/html; charset=UTF-8'
+    },
+    rawHeaders: [ 'Date',
+       'Fri,
+        22 Sep2017 10: 31: 19 GMT',
+       'Server',
+       'Apache/2.4.7 (Ubuntu)',
+       'Vary',
+       'Accept-Encoding',
+       'Content-Length',
+       '278',
+       'Connection',
+       'close',
+       'Content-Type',
+       'text/html; charset=UTF-8'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    upgrade: false,
+    url: '',
+    method: null,
+    statusCode: 200,
+    statusMessage: 'OK',
+    client:
+     Socket{
+       connecting: false,
+       _hadError: false,
+       _handle: null,
+       _parent: null,
+       _host: 'www.convert-unix-time.com',
+       _readableState:
+        ReadableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          buffer: [Object
+            ],
+          length: 0,
+          pipes: null,
+          pipesCount: 0,
+          flowing: true,
+          ended: false,
+          endEmitted: false,
+          reading: true,
+          sync: false,
+          needReadable: true,
+          emittedReadable: false,
+          readableListening: false,
+          resumeScheduled: false,
+          defaultEncoding: 'utf8',
+          ranOut: false,
+          awaitDrain: 0,
+          readingMore: false,
+          decoder: null,
+          encoding: null
+        },
+       readable: false,
+       domain: null,
+       _events: { end: [Object
+            ],
+          finish: [Function: onSocketFinish
+            ],
+          _socketEnd: [Function: onSocketEnd
+            ],
+          free: [Function: onFree
+            ],
+          close: [Object
+            ],
+          agentRemove: [Function: onRemove
+            ],
+          drain: [Function: ondrain
+            ],
+          error: [Function: socketErrorListener
+            ]
+        },
+       _eventsCount: 8,
+       _maxListeners: undefined,
+       _writableState:
+        WritableState{
+          objectMode: false,
+          highWaterMark: 16384,
+          needDrain: false,
+          ending: true,
+          ended: true,
+          finished: true,
+          decodeStrings: false,
+          defaultEncoding: 'utf8',
+          length: 0,
+          writing: false,
+          corked: 0,
+          sync: false,
+          bufferProcessing: false,
+          onwrite: [Function
+            ],
+          writecb: null,
+          writelen: 0,
+          bufferedRequest: null,
+          lastBufferedRequest: null,
+          pendingcb: 0,
+          prefinished: true,
+          errorEmitted: false,
+          bufferedRequestCount: 0,
+          corkedRequestsFree: [Object
+            ]
+        },
+       writable: false,
+       allowHalfOpen: false,
+       destroyed: true,
+       _bytesDispatched: 94,
+       _sockname: null,
+       _pendingData: null,
+       _pendingEncoding: '',
+       server: null,
+       _server: null,
+       parser: null,
+       _httpMessage:
+        ClientRequest{
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 5,
+          _maxListeners: undefined,
+          output: [],
+          outputEncodings: [],
+          outputCallbacks: [],
+          outputSize: 0,
+          writable: true,
+          _last: true,
+          upgrading: false,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          useChunkedEncodingByDefault: false,
+          sendDate: false,
+          _removedHeader: {},
+          _contentLength: 0,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          socket: [Circular
+            ],
+          connection: [Circular
+            ],
+          _header: 'GET /api?timestamp=1506075674 HTTP/1.1\r\nhost: www.convert-unix-time.com\r\nConnection: close\r\n\r\n',
+          _headers: [Object
+            ],
+          _headerNames: [Object
+            ],
+          _onPendingData: null,
+          agent: [Object
+            ],
+          socketPath: undefined,
+          timeout: undefined,
+          method: 'GET',
+          path: '/api?timestamp=1506075674',
+          _ended: true,
+          parser: null,
+          res: [Circular
+            ]
+        },
+       read: [Function
+        ],
+       _consuming: true,
+       _idleNext: null,
+       _idlePrev: null,
+       _idleTimeout: -1
+    },
+    _consuming: true,
+    _dumped: false,
+    req:
+     ClientRequest{
+       domain: null,
+       _events: { socket: [Object
+            ],
+          response: [Function: bound
+            ],
+          error: [Function: bound
+            ],
+          drain: [Function
+            ],
+          prefinish: [Function: requestOnPrefinish
+            ]
+        },
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       output: [],
+       outputEncodings: [],
+       outputCallbacks: [],
+       outputSize: 0,
+       writable: true,
+       _last: true,
+       upgrading: false,
+       chunkedEncoding: false,
+       shouldKeepAlive: false,
+       useChunkedEncodingByDefault: false,
+       sendDate: false,
+       _removedHeader: {},
+       _contentLength: 0,
+       _hasBody: true,
+       _trailer: '',
+       finished: true,
+       _headerSent: true,
+       socket:
+        Socket{
+          connecting: false,
+          _hadError: false,
+          _handle: null,
+          _parent: null,
+          _host: 'www.convert-unix-time.com',
+          _readableState: [Object
+            ],
+          readable: false,
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 8,
+          _maxListeners: undefined,
+          _writableState: [Object
+            ],
+          writable: false,
+          allowHalfOpen: false,
+          destroyed: true,
+          _bytesDispatched: 94,
+          _sockname: null,
+          _pendingData: null,
+          _pendingEncoding: '',
+          server: null,
+          _server: null,
+          parser: null,
+          _httpMessage: [Circular
+            ],
+          read: [Function
+            ],
+          _consuming: true,
+          _idleNext: null,
+          _idlePrev: null,
+          _idleTimeout: -1
+        },
+       connection:
+        Socket{
+          connecting: false,
+          _hadError: false,
+          _handle: null,
+          _parent: null,
+          _host: 'www.convert-unix-time.com',
+          _readableState: [Object
+            ],
+          readable: false,
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 8,
+          _maxListeners: undefined,
+          _writableState: [Object
+            ],
+          writable: false,
+          allowHalfOpen: false,
+          destroyed: true,
+          _bytesDispatched: 94,
+          _sockname: null,
+          _pendingData: null,
+          _pendingEncoding: '',
+          server: null,
+          _server: null,
+          parser: null,
+          _httpMessage: [Circular
+            ],
+          read: [Function
+            ],
+          _consuming: true,
+          _idleNext: null,
+          _idlePrev: null,
+          _idleTimeout: -1
+        },
+       _header: 'GET /api?timestamp=1506075674 HTTP/1.1\r\nhost: www.convert-unix-time.com\r\nConnection: close\r\n\r\n',
+       _headers: { host: 'www.convert-unix-time.com'
+        },
+       _headerNames: { host: 'host'
+        },
+       _onPendingData: null,
+       agent:
+        Agent{
+          domain: null,
+          _events: [Object
+            ],
+          _eventsCount: 1,
+          _maxListeners: undefined,
+          defaultPort: 80,
+          protocol: 'http:',
+          options: [Object
+            ],
+          requests: {},
+          sockets: [Object
+            ],
+          freeSockets: {},
+          keepAliveMsecs: 1000,
+          keepAlive: false,
+          maxSockets: Infinity,
+          maxFreeSockets: 256
+        },
+       socketPath: undefined,
+       timeout: undefined,
+       method: 'GET',
+       path: '/api?timestamp=1506075674',
+       _ended: true,
+       parser: null,
+       res: [Circular
+        ]
+    },
+    request:
+     Request{
+       domain: null,
+       _events: { error: [Function: bound
+            ],
+          complete: [Function: bound
+            ],
+          pipe: [Function
+            ],
+          data: [Function
+            ],
+          end: [Function
+            ]
+        },
+       _eventsCount: 5,
+       _maxListeners: undefined,
+       uri:
+        Url{
+          protocol: 'http:',
+          slashes: true,
+          auth: null,
+          host: 'www.convert-unix-time.com',
+          port: 80,
+          hostname: 'www.convert-unix-time.com',
+          hash: null,
+          search: '?timestamp=1506075674',
+          query: 'timestamp=1506075674',
+          pathname: '/api',
+          path: '/api?timestamp=1506075674',
+          href: 'http: //www.convert-unix-time.com/api?timestamp=1506075674' },
+       callback: [Function
+            ],
+       method: 'GET',
+       readable: true,
+       writable: true,
+       explicitMethod: true,
+       _qs:
+        Querystring{
+          request: [Circular
+                ],
+          lib: [Object
+                ],
+          useQuerystring: undefined,
+          parseOptions: {},
+          stringifyOptions: {}
+            },
+       _auth:
+        Auth{
+          request: [Circular
+                ],
+          hasAuth: false,
+          sentAuth: false,
+          bearerToken: null,
+          user: null,
+          pass: null
+            },
+       _oauth: OAuth{ request: [Circular
+                ], params: null
+            },
+       _multipart:
+        Multipart{
+          request: [Circular
+                ],
+          boundary: 'dea41af7-52b0-4609-b13b-7d5875a0d308',
+          chunked: false,
+          body: null
+            },
+       _redirect:
+        Redirect{
+          request: [Circular
+                ],
+          followRedirect: true,
+          followRedirects: true,
+          followAllRedirects: false,
+          followOriginalHttpMethod: false,
+          allowRedirect: [Function
+                ],
+          maxRedirects: 10,
+          redirects: [],
+          redirectsFollowed: 0,
+          removeRefererHeader: false
+            },
+       _tunnel:
+        Tunnel{
+          request: [Circular
+                ],
+          proxyHeaderWhiteList: [Object
+                ],
+          proxyHeaderExclusiveList: []
+            },
+       headers: {},
+       setHeader: [Function
+            ],
+       hasHeader: [Function
+            ],
+       getHeader: [Function
+            ],
+       removeHeader: [Function
+            ],
+       localAddress: undefined,
+       pool: {},
+       dests: [],
+       __isRequestRequest: true,
+       _callback: [Function
+            ],
+       proxy: null,
+       tunnel: false,
+       setHost: true,
+       originalCookieHeader: undefined,
+       _disableCookies: true,
+       _jar: undefined,
+       port: 80,
+       host: 'www.convert-unix-time.com',
+       path: '/api?timestamp=1506075674',
+       httpModule: { IncomingMessage: [Object
+                ],
+          METHODS: [Object
+                ],
+          OutgoingMessage: [Object
+                ],
+          ServerResponse: [Object
+                ],
+          STATUS_CODES: [Object
+                ],
+          Agent: [Object
+                ],
+          globalAgent: [Object
+                ],
+          ClientRequest: [Object
+                ],
+          request: [Function
+                ],
+          get: [Function
+                ],
+          _connectionListener: [Function: connectionListener
+                ],
+          Server: [Object
+                ],
+          createServer: [Function
+                ],
+          Client: [Function: deprecated
+                ],
+          createClient: [Function: deprecated
+                ]
+            },
+       agentClass: {
+                [Function: Agent
+                ] super_: [Object
+                ], defaultMaxSockets: Infinity
+            },
+       agent:
+        Agent{
+          domain: null,
+          _events: [Object
+                ],
+          _eventsCount: 1,
+          _maxListeners: undefined,
+          defaultPort: 80,
+          protocol: 'http:',
+          options: [Object
+                ],
+          requests: {},
+          sockets: [Object
+                ],
+          freeSockets: {},
+          keepAliveMsecs: 1000,
+          keepAlive: false,
+          maxSockets: Infinity,
+          maxFreeSockets: 256
+            },
+       _started: true,
+       href: 'http: //www.convert-unix-time.com/api?timestamp=1506075674',
+       req:
+        ClientRequest{
+          domain: null,
+          _events: [Object
+                ],
+          _eventsCount: 5,
+          _maxListeners: undefined,
+          output: [],
+          outputEncodings: [],
+          outputCallbacks: [],
+          outputSize: 0,
+          writable: true,
+          _last: true,
+          upgrading: false,
+          chunkedEncoding: false,
+          shouldKeepAlive: false,
+          useChunkedEncodingByDefault: false,
+          sendDate: false,
+          _removedHeader: {},
+          _contentLength: 0,
+          _hasBody: true,
+          _trailer: '',
+          finished: true,
+          _headerSent: true,
+          socket: [Object
+                ],
+          connection: [Object
+                ],
+          _header: 'GET /api?timestamp=1506075674 HTTP/1.1\r\nhost: www.convert-unix-time.com\r\nConnection: close\r\n\r\n',
+          _headers: [Object
+                ],
+          _headerNames: [Object
+                ],
+          _onPendingData: null,
+          agent: [Object
+                ],
+          socketPath: undefined,
+          timeout: undefined,
+          method: 'GET',
+          path: '/api?timestamp=1506075674',
+          _ended: true,
+          parser: null,
+          res: [Circular
+                ]
+            },
+       ntick: true,
+       response: [Circular
+            ],
+       originalHost: 'www.convert-unix-time.com',
+       originalHostHeaderName: 'host',
+       responseContent: [Circular
+            ],
+       _destdata: true,
+       _ended: true,
+       _callbackCalled: true
+        },
+    toJSON: [Function: responseToJSON
+        ],
+    caseless:
+     Caseless{
+       dict: { date: 'Fri,
+                22 Sep2017 10: 31: 19 GMT',
+          server: 'Apache/2.4.7 (Ubuntu)',
+          vary: 'Accept-Encoding',
+          'content-length': '278',
+          connection: 'close',
+          'content-type': 'text/html; charset=UTF-8'
+            }
+        },
+    read: [Function
+        ],
+    body: '{
+            "localDate": "Friday 22nd September 2017 10:21:14 AM",
+            "utcDate": "Friday 22nd September 2017 10:21:14 AM",
+            "format": "l jS F Y h:i:s A",
+            "returnType": "json",
+            "timestamp": "1506075674",
+            "timezone": "UTC",
+            "daylightSavingTime": false,
+            "url": "http:\\/\\/www.convert-unix-time.com?t=1506075674"
+        }'
+    }

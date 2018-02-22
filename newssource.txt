@@ -1,0 +1,186 @@
+ARGENTINA 23424747
+google-news-ar
+la-gaceta
+infobae
+la-nacion 
+
+AUSTRALIA  23424748
+abc-news-au
+australian-financial-review
+google-com-au
+news-com-au
+the-guardian-au
+
+
+BRAziL  23424768
+
+blasting-news-br
+globo
+google-news-br
+info-money
+
+CANADDA  23424775
+
+cbc-news
+financial-post
+google-news-ca
+the-globe-and-mail
+
+CHINA  23424781
+
+techcrunch-cn
+xinhua-net
+
+FRANCE  23424819
+
+google-news-fr
+le-monde
+lequipe
+les-echos
+liberation
+
+GERMANy  23424829
+
+bild
+der-tagesspiegel
+die-ziet
+focus
+gruenderszene
+handelsblatt
+spiegel-online
+t3n
+wired-de
+wirtschafts-woche
+
+India   23424848
+google-news-in
+the-hindu
+the-times-of-India
+
+Ireland 23424803
+rte
+the-irish-times
+
+Israel 23424852
+google-news-is
+ynet
+
+Italy  23424853
+ansa
+football-italia
+google-news-it
+il-sole-24-ore
+la-repubblica
+
+Netherlands  23424909
+
+rtl-nieuws
+
+Norway  23424910
+aftenposten
+nrk
+
+pakistan  23424922
+ary-news
+
+russia   23424936 
+google-news-ru
+lenta
+rbc
+rt
+
+saudi arabia  23424938
+
+argaam
+google-news-sa
+sabq
+
+southafrica 23424942
+news24
+
+spain 23424950
+el-mundo
+marca
+
+sweden  23424954
+goteborgs-posten
+svenska-dagbladet
+
+United kingdom  23424975
+bbc-news
+bbc-sport
+business-insider-uk
+daily-mail
+financial-times
+four-four-two
+google-news-uk
+independent
+metro
+mirror
+mtv-news-uk
+talksport
+the-economist
+the-guardian-uk
+the-lad-bible
+the-sport-bible
+the-telegraph
+
+Uinted States  23424977
+
+abc-news
+al-jazeera-english
+ars-technica
+associated-press
+axios
+bleacher-report
+bloomberg
+breitbart-news
+business-insider
+buzzfeed
+cbs-news
+cnbc
+cnn
+cnn-es
+crypto-coins-news
+engadget
+entertainmnet-weekly
+espn
+espn-cric-info
+fortune
+fox-news
+fox-sport
+google-news
+hacker-news
+ign
+mashable
+medical-news-today
+msnbc
+mtv-news
+national-geographic
+nbc-news
+new-scientist
+newsweek
+new-york-magazine
+next-big-future
+nfl-news
+nhl-news
+politico
+polygon
+recode
+reddit-r-all
+reuters
+techcrunch
+techradar
+the-hill
+the-huffington-post
+the-new-york-times
+the-next-web
+the-verge
+the-wall-street-journal
+time
+usa-today
+vice-news
+wired
+
+
+

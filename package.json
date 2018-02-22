@@ -1,0 +1,45 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "Learning node",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demon",
+    "first",
+    "noobie",
+    "Spellcheck"
+  ],
+  "author": "vineeth",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^0.12.1",
+    "adf.ly": "^1.1.0",
+    "amm-ultra": "^1.0.0",
+    "chuck-norris-api": "^1.0.9",
+    "chucknorris-io": "^1.0.4",
+    "cognitive-services": "^0.1.2",
+    "express": "^4.15.4",
+    "forecast": "^0.3.2",
+    "googlespell": "0.0.4",
+    "newsapi": "^2.2.0",
+    "node-bing-api": "^3.2.2",
+    "node-schedule": "^1.2.5",
+    "publicalerts": "^1.0.2",
+    "railway-api": "^2.0.0",
+    "sh.st": "^1.1.1",
+    "teacher": "^0.1.0",
+    "textgears": "^1.0.0",
+    "twit": "^2.2.9",
+    "typo-js": "^1.0.3",
+    "usgs-earthquake-reports": "^0.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  }
+}
